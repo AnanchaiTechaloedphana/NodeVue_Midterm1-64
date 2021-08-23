@@ -1,6 +1,6 @@
 <template>
 <div>
-    <h1>Create User</h1>
+    <h1>Create wine</h1>
     <form v-on:submit.prevent = "createUser">
         <p>name: <input type="text" v-model="user.name"></p>
         <p>lastname: <input type="text" v-model="user.lastname"></p>

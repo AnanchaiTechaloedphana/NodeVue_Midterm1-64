@@ -2,7 +2,7 @@
   <div>
     <h1>Get All Users</h1>
     <div v-if="users.length">
-      <h4>จำนวนผู้ใช้งาน {{ users.length }}</h4>
+      <h4>ไวน์ {{ users.length }}</h4>
       <p>
         <button v-on:click="navigateTo('/user/create')">
             สร้างผู้ใช้งาน
